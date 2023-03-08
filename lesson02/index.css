@@ -1,4 +1,10 @@
 p {
-background-color: gray;
-border: 1px solid red;
+  background-color: gray;
+  border: 1px solid red;
+  color: maroon;
+}
+h1, h2 {
+	font-family: Arial;
+	color: grey;
+	border-bottom:1px solid black;
 }
