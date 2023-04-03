@@ -1,7 +1,8 @@
 body {
-	font-size: small; /* 新的属性值，请自行了解 */
+	/* font-size: small; 新的属性值，请自行了解 
 	font-family: Verdana, Helvetica, Arial;
-  line-height: 1.6em;
+  line-height: 1.6em; */
+  font: small/1.6em Verdana, Helvetica, Arial;
 }
 
 h1, h2 {
@@ -17,24 +18,20 @@ h2 {
 }
 
 #guarantee {
-  border-color:        white;
-  border-width:        1px;
-  border-style:        dashed;
+  font: italic /1.9em Georgia, "Times New Roman";
   background-color:    #a7cece;
   padding:             25px;
   padding-left: 80px;
   margin:              30px;
   margin-right: 250px;
-  line-height: 1.9em;
+  /* line-height: 1.9em;
   font-style: italic;
+  font-family: Georgia, "Times New Roman"; */
   color: #444444;
-  font-family: Georgia, "Times New Roman";
   background-image: url(images/background.gif);
   background-repeat: no-repeat;
   background-position: top left;
-  border-style: dashed;
-  border-width: thin;
-  border-color: rgb(255,255,255);
+  border: thin dashed white;
   border-bottom-style: dashed;
   border-bottom-left-radius: 2em;
   border-top-right-radius: 2em;
@@ -69,4 +66,35 @@ h2 {
 }
 .elixirs h3{
   color: #d12c47;
+}
+
+.footer{
+font-size:.5em;
+text-align:center;
+line-height:normal;
+margin-top:30px;
+}
+
+.cd {
+	font-style: italic;
+  /* width: 10000;
+  border: 1px solid black;
+  padding: 100px; */
+}
+
+.artist {
+	font-weight: bold;
+}
+
+.elixirs a:link {
+  color: #007e7e;
+}
+
+.elixirs a:visited {
+  color: #333333;
+}
+
+.elixirs a:hover {
+  background: #f88396;
+  color: #0d5353;
 }
