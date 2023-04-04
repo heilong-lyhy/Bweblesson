@@ -17,7 +17,7 @@ h2 {
 	font-size: 1.3em;
 }
 
-#guarantee {
+.guarantee {
   font: italic /1.9em Georgia, "Times New Roman";
   background-color:    #a7cece;
   padding:             25px;
