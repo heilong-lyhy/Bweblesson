@@ -10,6 +10,17 @@
 }
 
 
+p{
+color: red;
+}
+
+p.test{
+color: green;
+}
+
+p#id{
+color: blue;
+}
 
 body h1{
 font-weight: 600;
