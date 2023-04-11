@@ -37,14 +37,14 @@ h2 {
   border-top-right-radius: 2em;
 }
 
-.test{
+/* .test{
   padding:25px;
   margin:30px;
   margin-right: 2600px;
   border-style: solid;
   border-radius:100px;
   border-color: black;
-}
+} */
 
 .elixirs{
   border-width: thin;
@@ -59,6 +59,7 @@ h2 {
   background-repeat: repeat-x;
   text-align: center;
   line-height: 1;
+  float: right;
 }
 
 .elixirs h2{
