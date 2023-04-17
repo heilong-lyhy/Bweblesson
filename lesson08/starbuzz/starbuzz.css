@@ -17,6 +17,11 @@ body {
   padding:          15px;
   margin:           0px 330px 10px 10px;
   height: 542px;
+  overflow-y:scroll;
+}
+
+.main::-webkit-scrollbar{
+  display: none;
 }
 
 .sidebar {
